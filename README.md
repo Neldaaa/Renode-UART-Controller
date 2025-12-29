@@ -36,10 +36,10 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 <div align="justify">
 
 ### 🐍 1. Cyber Snake Game
-*A neon-styled classic snake game running with bi-directional feedback.*
+A neon-styled classic snake game running with bi-directional feedback.
 
 ### 🎹 2. Cyber Beat Revolution
-*A rhythm game requiring precise timing, featuring visual effects and combo systems.*
+A rhythm game requiring precise timing, featuring visual effects and combo systems.
 
 <table>
   <tr>
@@ -56,7 +56,10 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 
 ### 🔌 3. Hardware Setup (DE1-SoC)
 *The physical interface using Altera DE1-SoC board, connected via UART to control the games.* <br><br>
-<img src="pic/hardware.jpg" width="60%" alt="Hardware Setup"/>
+
+<td align="center"
+<img src="pic/hardware.jpg" width="50%" length="75%" alt="Hardware Setup"/>
+</td>
 
 </div>
 
