@@ -24,7 +24,11 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 ## 📺 Video Demo
 <div align="center">
 
-[![Watch the Demo](https://img.youtube.com/vi/YirFn9GxVKg/maxresdefault.jpg){width=75%}](https://www.youtube.com/watch?v=YirFn9GxVKg)
+<a href="https://www.youtube.com/watch?v=YirFn9GxVKg">
+  <img src="https://img.youtube.com/vi/YirFn9GxVKg/maxresdefault.jpg" alt="Watch the Demo" width="75%" />
+</a>
+
+<br>
 
 *(Click the image above to watch the gameplay demo)*
 
