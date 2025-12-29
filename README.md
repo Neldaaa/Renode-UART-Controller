@@ -120,8 +120,8 @@ The controller will automatically attempt to connect to:
 
 ### Step 3: Select a Game
 Once connected, follow the on-screen instructions or use the DE1-SoC keys:
-    *Press Key 0 (or 'S') to launch Cyber Snake.*
-    *Press Key 1 (or 'B') to launch Cyber Beat.*
+    <li>*Press Key 0 (or 'S') to launch Cyber Snake.*</li>
+    <li>*Press Key 1 (or 'B') to launch Cyber Beat.*</li>
 
 ---
 
