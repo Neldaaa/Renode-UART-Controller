@@ -41,13 +41,13 @@ A neon-styled classic snake game running with bi-directional feedback.
 ### 🎹 2. Cyber Beat Revolution
 A rhythm game requiring precise timing, featuring visual effects and combo systems.
 
-<table border="0" cellpadding="0" cellspacing="0">
+<table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center">
       <img src="pic/snake_game.png" width="100%" alt="Cyber Snake Demo"/>
       <br><b>Cyber Snake Game</b>
     </td>
-    <td align="center" width="50%">
+    <td align="center">
       <img src="pic/beat_game.png" width="100%" alt="Cyber Beat Demo"/>
       <br><b>Cyber Beat Revolution</b>
     </td>
