@@ -93,6 +93,7 @@ Renode-UART-Controller/
 1.  **Renode:** Required for emulating the STM32F4 chip.
 2.  **Python 3.x:** With `pygame` and `pyserial` libraries installed.
     ```bash
+    
     pip install pygame pyserial
     ```
 3.  **DE1-SoC Board:** (Optional) Connected via USB-Serial (e.g., COM5).
@@ -102,7 +103,7 @@ Renode-UART-Controller/
 
 ## ⚡ How to Run
 
-### 1️⃣ Step 1: Start OS Emulation (Renode)
+### Step 1: Start OS Emulation (Renode)
 Open a terminal in the project root and execute the script:
 ```bash
 renode emulation\debug_config.resc
@@ -110,7 +111,7 @@ renode emulation\debug_config.resc
 💡 Note: In the Renode Monitor window that appears, type start and press <kbd>Enter</kbd> to boot the MOS Operating System.
 
 
-### 2️⃣ Step 2: Launch the Master Controller
+### Step 2: Launch the Master Controller
 Open a separate terminal window and run:
 ```bash
 python controller.py
@@ -119,9 +120,10 @@ The controller will automatically attempt to establish a bridge between:
 <li>📡 Renode UART (localhost:3333) </li>
 <li>🔌 DE1-SoC Hardware (Active COM Port)</li>
 
-### 3️⃣ Step 3: Game Selection
+### Step 3: Game Selection
 Once connected, the main menu will appear. You can control the system using either your PC Keyboard or the DE1-SoC 
-Physical Keys:Game TitleKeyboard ShortcutFPGA ButtonDescription🐍 Cyber Snake<kbd>S</kbd><kbd>KEY 0</kbd>Classic snake game with neon effects.🎹 Cyber Beat<kbd>B</kbd><kbd>KEY 1</kbd>Rhythm game requiring precise timing.
+    <li>*Press Key 0 (or 'S') to launch Cyber Snake.*</li>
+    <li>*Press Key 1 (or 'B') to launch Cyber Beat.*</li>
 
 ## 📜 License
 This project is based on MOS-Renode and modified for educational purposes.
