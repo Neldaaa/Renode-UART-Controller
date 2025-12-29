@@ -37,7 +37,8 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 
 ### 🐍 1. Cyber Snake Game
 *A neon-styled classic snake game running with bi-directional feedback.* <br><br>
-<img src="pic/snake_game.png" width="50%" alt="Cyber Snake Demo"/>
+<p align="justify">
+<img src="pic/snake_game.png" width="50%" alt="Cyber Snake Demo"/></p>
 
 <br><
 
