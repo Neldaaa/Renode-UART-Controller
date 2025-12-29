@@ -37,17 +37,19 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 
 ### 🐍 1. Cyber Snake Game
 *A neon-styled classic snake game running with bi-directional feedback.* <br><br>
-<img src="pic/snake_game.png" width="80%" alt="Cyber Snake Demo"/>
+<img src="pic/snake_game.png" width="50%" alt="Cyber Snake Demo"/>
 
-<br><br>
+<br><
 
 ### 🎹 2. Cyber Beat Revolution
-*A rhythm game requiring precise timing, featuring visual effects and combo systems.* <img src="pic/beat_game.png" width="80%" alt="Cyber Beat Demo"/>
+*A rhythm game requiring precise timing, featuring visual effects and combo systems.* <br><br>
+<img src="pic/beat_game.png" width="30%" alt="Cyber Beat Demo"/>
 
-<br><br>
+<br>
 
 ### 🔌 3. Hardware Setup (DE1-SoC)
-*The physical interface using Altera DE1-SoC board, connected via UART to control the games.* <img src="pic/hardware.jpg" width="60%" alt="Hardware Setup"/>
+*The physical interface using Altera DE1-SoC board, connected via UART to control the games.* <br><br>
+<img src="pic/hardware.jpg" width="60%" alt="Hardware Setup"/>
 
 </div>
 
