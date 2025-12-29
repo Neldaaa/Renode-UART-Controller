@@ -44,11 +44,11 @@ The system features a centralized <b>Python Controller</b> that bridges communic
 <table>
   <tr>
     <td align="center">
-      <img src="pic/snake_game.png" width="100%" alt="Cyber Snake Demo"/>
+      <img src="pic/snake_game.png" width="70%" alt="Cyber Snake Demo"/>
       <br><b>Cyber Snake Game</b>
     </td>
     <td align="center">
-      <img src="pic/beat_game.png" width="100%" alt="Cyber Beat Demo"/>
+      <img src="pic/beat_game.png" width="70%" alt="Cyber Beat Demo"/>
       <br><b>Cyber Beat Revolution</b>
     </td>
   </tr>
