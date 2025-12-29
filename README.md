@@ -1,27 +1,61 @@
 # 🎮 MOS Cyber Console (Renode x DE1-SoC)
 
+## 🌟 Acknowledgement & Credits
+This project is an extended implementation based on the **MOS-Renode** framework. We strictly attribute the core operating system and simulation environment to the original author.
+
+> **Original Source Code:** [https://github.com/Eplankton/mos-renode](https://github.com/Eplankton/mos-renode)  
+> **Author:** Eplankton
+
+---
+
 ## Introduction
 **MOS Cyber Console** is a hybrid embedded project that integrates a Real-Time Operating System (**MOS RTOS**), Hardware Emulation (**Renode**), and Physical Hardware interaction (**DE1-SoC FPGA Board**). 
 
 The system features a centralized Python Controller that bridges communication between the simulated STM32F4 environment and the physical world, allowing users to play interactive games using either a PC keyboard or the physical keys on the DE1-SoC board.
 
-## 🚀 Features
-* **Hybrid Architecture:** Simulates STM32F4 on Renode while communicating with real-world FPGA hardware via UART.
-* **MOS RTOS Integration:** Uses MOS Shell tasks to handle command dispatching.
-* **Dual Control Modes:** * **Simulation Mode:** Control via Keyboard (Arrow Keys / WASD).
-    * **Hardware Mode:** Control via DE1-SoC Push Buttons (Key 0-3).
-* **Game Library:**
-    1.  🐍 **Cyber Snake:** A neon-styled classic snake game with bi-directional feedback (LED effects).
-    2.  🎹 **Cyber Beat:** A rhythm game requiring precise timing.
+## 📸 Project Demo & Gallery
 
+### 🐍 1. Cyber Snake Game
+A neon-styled classic snake game running with bi-directional feedback.
+![Cyber Snake Demo](pic/snake_game.png)
+
+### 🎹 2. Cyber Beat Revolution
+A rhythm game requiring precise timing, featuring visual effects and combo systems.
+![Cyber Beat Demo](pic/beat_game.png)
+
+### 🔌 3. Hardware Setup (DE1-SoC)
+The physical interface using Altera DE1-SoC board, connected via UART to control the games.
+![Hardware Setup](pic/hardware.jpg)
+
+---
+
+## 🚀 Features
+* **Hybrid Architecture:** Seamless communication between simulated STM32F4 (Renode) and real-world FPGA hardware via UART.
+* **MOS RTOS Integration:** Utilizes MOS Shell tasks for efficient command dispatching and multitasking.
+* **Dual Control Modes:**
+    * **Simulation Mode:** Control games via PC Keyboard (WASD / Arrow Keys).
+    * **Hardware Mode:** Control games via DE1-SoC Push Buttons (KEY0 - KEY3).
+* **Game Library:** Includes *Cyber Snake* and *Cyber Beat* with high-quality visual effects (particles, screen shake, neon glow).
+
+---
+    
 ## 📂 Project Structure
-* `app/` & `core/`: Source code for MOS RTOS (C++).
-* `emulation/`: Renode scripts for simulating the multi-machine environment.
-* `de1_soc_firmware/`: C code and makefile for the DE1-SoC board interface.
-* `controller.py`: The master Python launcher that manages UART connections and game processes.
+
+```text
+Renode-UART-Controller/
+├── app/ & core/          # Source code for MOS RTOS (C++)
+├── emulation/            # Renode scripts (.resc) for STM32F4 simulation
+├── de1_soc_firmware/     # C firmware and Makefile for DE1-SoC board
+├── pic/                  # Images and Demo screenshots
+├── controller.py         # Master Python Controller (UART Bridge & Game Launcher)
+├── cyber_snake_game.py   # Snake Game Module
+├── cyber_beat_game.py    # Rhythm Game Module
+└── mos-renode.code-workspace # VS Code Workspace configuration
+
+---
 
 ## 🛠️ Prerequisites
-1.  **Renode:** For STM32F4 emulation.
+1.  **Renode:**Required for emulating the STM32F4 chip.
 2.  **Python 3.x:** With `pygame` and `pyserial` libraries installed.
     ```bash
     pip install pygame pyserial
