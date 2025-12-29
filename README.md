@@ -117,8 +117,10 @@ Open a separate terminal window and run:
 python controller.py
 ```
 The controller will automatically attempt to establish a bridge between:
-<li>📡 Renode UART (localhost:3333) </li>
-<li>🔌 DE1-SoC Hardware (Active COM Port)</li>
+<ul>
+  <li>📡 Renode UART (localhost:3333) </li>
+  <li>🔌 DE1-SoC Hardware (Active COM Port)</li>
+
 
 ### Step 3: Game Selection
 Once connected, the main menu will appear. You can control the system using either your PC Keyboard or the DE1-SoC 
