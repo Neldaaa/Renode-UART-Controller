@@ -55,10 +55,10 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
 </table>
 
 ### 🔌 3. Hardware Setup (DE1-SoC)
-*The physical interface using Altera DE1-SoC board, connected via UART to control the games.* <br><br>
+The physical interface using Altera DE1-SoC board, connected via UART to control the games.* <br>
 
 <td align="center"
-<img src="pic/hardware.jpg" width="50%" length="75%" alt="Hardware Setup"/>
+<img src="pic/hardware.jpg" width="50%"  alt="Hardware Setup"/>
 </td>
 
 </div>
