@@ -120,12 +120,14 @@ The controller will automatically attempt to establish a bridge between:
 <ul>
   <li>📡 Renode UART (localhost:3333) </li>
   <li>🔌 DE1-SoC Hardware (Active COM Port)</li>
-
+</ul>
 
 ### Step 3: Game Selection
 Once connected, the main menu will appear. You can control the system using either your PC Keyboard or the DE1-SoC 
+<ul>
     <li>*Press Key 0 (or 'S') to launch Cyber Snake.*</li>
     <li>*Press Key 1 (or 'B') to launch Cyber Beat.*</li>
+</ul>
 
 ## 📜 License
 This project is based on MOS-Renode and modified for educational purposes.
