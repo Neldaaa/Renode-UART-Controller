@@ -44,7 +44,7 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
 <table>
   <tr>
     <td align="center">
-      <img src="pic/snake_game.png" width="80%" alt="Cyber Snake Demo"/>
+      <img src="pic/snake_game.png" width="90%" alt="Cyber Snake Demo"/>
       <br><b>Cyber Snake Game</b>
     </td>
     <td align="center">
