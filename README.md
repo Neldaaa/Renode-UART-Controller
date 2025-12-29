@@ -48,7 +48,7 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
       <br><b>Cyber Snake Game</b>
     </td>
     <td align="center">
-      <img src="pic/beat_game.png" width="100%" alt="Cyber Beat Demo"/>
+      <img src="pic/beat_game.png" width="70%" alt="Cyber Beat Demo"/>
       <br><b>Cyber Beat Revolution</b>
     </td>
   </tr>
@@ -58,7 +58,7 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
 *The physical interface using Altera DE1-SoC board, connected via UART to control the games.*
 
 <div align="center">
-  <img src="pic/hardware.jpg" width="80%" alt="Hardware Setup"/>
+  <img src="pic/hardware.jpg" width="45%" alt="Hardware Setup"/>
 </div>
 
 </div>
