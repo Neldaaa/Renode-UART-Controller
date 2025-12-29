@@ -139,8 +139,8 @@ The controller will automatically attempt to establish a bridge between:
 ### Step 3: Game Selection
 Once connected, the main menu will appear. You can control the system using either your PC Keyboard or the DE1-SoC 
 <ul>
-    <li>*Press Key 0 (or 'S') to launch Cyber Snake.*</li>
-    <li>*Press Key 1 (or 'B') to launch Cyber Beat.*</li>
+    <li>Press Key 0 (or 'S') to launch Cyber Snake.</li>
+    <li>Press Key 1 (or 'B') to launch Cyber Beat.</li>
 </ul>
 
 ## 📜 License
