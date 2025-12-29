@@ -44,7 +44,7 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
 <table>
   <tr>
     <td align="center">
-      <img src="pic/snake_game.png" width="70%" alt="Cyber Snake Demo"/>
+      <img src="pic/snake_game.png" width="80%" alt="Cyber Snake Demo"/>
       <br><b>Cyber Snake Game</b>
     </td>
     <td align="center">
@@ -55,7 +55,7 @@ A rhythm game requiring precise timing, featuring visual effects and combo syste
 </table>
 
 ### 🔌 3. Hardware Setup (DE1-SoC)
-*The physical interface using Altera DE1-SoC board, connected via UART to control the games.*
+The physical interface using Altera DE1-SoC board, connected via UART to control the games.
 
 <div align="center">
   <img src="pic/hardware.jpg" width="45%" alt="Hardware Setup"/>
